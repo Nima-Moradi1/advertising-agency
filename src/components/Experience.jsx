@@ -16,7 +16,7 @@ const ExperienceCard = ({ experience }) => {
     <VerticalTimelineElement
       className="hover:scale-105 duration-300 max-w-2xl lg:max-w-full"
       contentStyle={{
-        borderRadius: "50px",
+        borderRadius: "30px",
         backgroundImage:
           "linear-gradient(to bottom right, #172554 ,#2c85c5, #172554 )",
         color: "#fff",
