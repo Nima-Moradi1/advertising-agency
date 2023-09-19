@@ -27,9 +27,8 @@ const Hero = () => {
       <ComputersCanvas />
       <div className="lg:hidden absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className=" w-[50px] h-[84px] rounded-3xl border-[5px] border-blue-100 flex justify-center items-center p-2">
+          <div className=" w-[45px] h-[75px] rounded-3xl border-[2px] border-blue-100 flex justify-center items-center p-2">
             <BsArrowDownCircle className="fill-blue-100 w-6 absolute h-24 animate-ping" />
-            <span className="absolute text-sm text-white/60">CLick</span>
             <motion.div
               animate={{
                 y: [0, 24, 0],
