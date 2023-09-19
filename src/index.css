@@ -6,7 +6,7 @@
 
   @font-face {
     font-family: 'vazir';
-    src: url('/public/fonts/Vazirmatn-Regular.woff2');
+    src: url('/fonts/Vazirmatn-Regular.woff2');
   }
 * {
   margin: 0;
