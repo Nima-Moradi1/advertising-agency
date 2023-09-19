@@ -6,27 +6,28 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className=" w-[calc(100%-190px)] lg:w-[calc(100%-350px)]">
+const ServiceCard = ({ index, title, icon, desc }) => (
+  <Tilt className="md:min-w-[350px] md:last:grow md:last:max-w-3xl xl:last:max-w-none xl:last:grow-0 basis-full md:basis-1/3 xl:basis-1/4">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full bg-gradient-to-tl from-blue-950 via-[#2c85c5] to-blue-950  p-[1px] rounded-[40px] shadow-card">
+      className="w-full  bg-gradient-to-tl from-blue-950 via-[#2c85c5] to-blue-950  p-[1px] rounded-[40px] shadow-card">
       <div
         options={{
           max: 35,
           scale: 1,
           speed: 250,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        className="bg-tertiary rounded-[20px] p-5 min-h-[200px] flex justify-evenly items-center flex-col">
         <img
           src={icon}
           alt="web-development"
-          className="mb-8 lg:w-[600px] lg:h-44 w-48 h-32 object-fill rounded-[60px]"
+          className="w-72 h-72 object-contain rounded-xl "
         />
 
-        <h3 className="text-[#fdfbf9] text-[20px] lg:text-3xl font-bold text-center animate-character">
+        <h2 className="text-[#fdfbf9] mb-8 text-[20px] md:text-3xl font-bold text-center animate-character">
           {title}
-        </h3>
+        </h2>
+        <h4 className="text-[#fdfbf9] text-sm md:text-base text-center">{desc}</h4>
       </div>
     </motion.div>
   </Tilt>
@@ -50,7 +51,7 @@ const About = () => {
         مربوط به خدمات هست اینجا کذاشته بشه . یه محتوای قوی برای درباره ما نوشته بشه
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap justify-center items-center gap-10">
+      <div className="mt-20 flex flex-wrap justify-center gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

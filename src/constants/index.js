@@ -1,12 +1,4 @@
-import {
-  insta,
-  filming,
-  service,
-  editing,
-  comingsoon,
-  comingsoon2,
-  comingsoon3,
-} from "../assets";
+import { premiere, service, comingsoon, comingsoon2, comingsoon3 } from "../assets";
 
 export const navLinks = [
   {
@@ -26,15 +18,18 @@ export const navLinks = [
 const services = [
   {
     title: "ادمینی حرفه ای و تولید محتوای اینستاگرام",
-    icon: editing,
+    desc: "اینجا یه سری توضیحات راجع به موضوع خاص تیتر صحبت میکنیم ... حداقل سعی کنیم که دو خط بشه یا بیش تر چون که توضیحات خفنی رو باید منحصرا جلوه بدیم ",
+    icon: premiere,
   },
   {
-    title: "فیلمبرداری خلاق و بین المللی توسط متخصصان ارشد",
-    icon: editing,
+    title: "فیلمبرداری خلاق و حرفه ای توسط متخصصان",
+    desc: "اینجا یه سری توضیحات راجع به موضوع خاص تیتر صحبت میکنیم ... حداقل سعی کنیم که دو خط بشه یا بیش تر چون که توضیحات خفنی رو باید منحصرا جلوه بدیم ",
+    icon: premiere,
   },
   {
     title: "تدوین, موشن گرافیک و ایده پردازی اتاق فکر",
-    icon: editing,
+    desc: "اینجا یه سری توضیحات راجع به موضوع خاص تیتر صحبت میکنیم ... حداقل سعی کنیم که دو خط بشه یا بیش تر چون که توضیحات خفنی رو باید منحصرا جلوه بدیم ",
+    icon: premiere,
   },
 ];
 

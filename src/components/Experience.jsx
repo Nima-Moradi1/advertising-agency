@@ -14,7 +14,7 @@ import { textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
-      className="hover:scale-105 duration-300"
+      className="hover:scale-105 duration-300 max-w-2xl lg:max-w-full"
       contentStyle={{
         borderRadius: "50px",
         backgroundImage:
