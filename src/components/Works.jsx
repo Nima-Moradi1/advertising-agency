@@ -37,10 +37,10 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold md:text-[24px] text-[16px] animate-character">
+          <h3 className="text-white font-bold md:text-[24px] text-[20px] animate-character">
             {name}
           </h3>
-          <p className="mt-2 text-secondary md:text-[14px] text-[12px]">
+          <p className="mt-4 text-secondary md:text-[14px] text-[12px]">
             {description}
           </p>
         </div>

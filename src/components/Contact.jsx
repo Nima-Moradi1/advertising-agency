@@ -88,7 +88,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="لطفا نام و نام خانوادگی خود را وارد کنید"
-              className="focus:ring-1 focus:ring-blue-600 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="focus:ring-1 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -99,7 +99,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="لطفا اسم برند خود را وارد کنید"
-              className="focus:ring-1 focus:ring-blue-600 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="focus:ring-1 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -110,7 +110,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="لطفا شماره همراه ارتباطی خود را وارد کنید"
-              className="focus:ring-1 focus:ring-blue-600 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="focus:ring-1 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -123,7 +123,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="لطفا ایمیل ارتباطی خود را وارد کنید"
-              className="focus:ring-1 focus:ring-blue-600 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="focus:ring-1 bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
 
